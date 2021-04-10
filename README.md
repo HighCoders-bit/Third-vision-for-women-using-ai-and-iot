@@ -74,7 +74,31 @@ Motion Sensor Camera is provided is implemented not only to detect criminal but 
   
   ### SAKSHAM APP
 
-  
-
-
-
+elif mycombo.get()=='see current year graph':
+           img1=Image.open("harrasment.png")
+           k=img1.resize((389,350))
+           k1=ImageTk.PhotoImage(k)
+           label=tk.Label(win,image=k1)
+           label.pack(side='bottom')
+           img2=Image.open("kidnapped.png")
+           g=img2.resize((389,300))
+           g1=ImageTk.PhotoImage(g)
+           My_label1=tk.Label(win,image=g1)
+           My_label1.pack(side='right')
+           img3=Image.open("murder.png")
+           s=img3.resize((389,370))
+           s1=ImageTk.PhotoImage(s)
+           My_label2=tk.Label(win,image=s1)
+           My_label2.pack(side='left')
+           img4=Image.open("rape.png")
+           p=img4.resize((389,370))
+           p1=ImageTk.PhotoImage(p)
+           My_label3=tk.Label(win,image=p1)
+           My_label3.pack()
+           win.mainloop()
+          
+          
+<img src="https://user-images.githubusercontent.com/70643549/114269960-62fbc000-9a27-11eb-9b9a-d49f4145cc81.png" width="200" height="200"/>
+<img src="https://user-images.githubusercontent.com/70643549/114270030-bec64900-9a27-11eb-87d5-cce10a003e41.png" width="200" height="200"/>
+<img src="https://user-images.githubusercontent.com/70643549/114270051-db628100-9a27-11eb-8e8d-ba71ab31759f.png" width="200" height="200"/>
+<img src="https://user-images.githubusercontent.com/70643549/114270092-27adc100-9a28-11eb-9078-7562445beeba.png"width="200" height="200"/>
