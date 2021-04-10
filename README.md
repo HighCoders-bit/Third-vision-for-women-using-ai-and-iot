@@ -14,3 +14,6 @@ Motion Sensor Camera is provided is implemented not only to detect criminal but 
 # AI
 * ALL the algorithm implemented along with GUI app is-----SHAKSHAM APP.py
 # USERMANUAL
+the dataset file(Westbengal crime(updated).xlsx)
+*  User registration.xlsx file contains the user id and password for the app
+* Analysis(Updated).text which contain detail analysis of WestBengal crime
