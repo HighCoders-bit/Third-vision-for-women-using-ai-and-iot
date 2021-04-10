@@ -64,6 +64,7 @@ Motion Sensor Camera is provided is implemented not only to detect criminal but 
   smtpData.addRecipient(emailRecipient);
   
   ![IMG246](https://user-images.githubusercontent.com/70643549/114269405-7fe2c400-9a24-11eb-9fff-486808370f86.jpg)
+  <img src="https://user-images.githubusercontent.com/70643549/114269405-7fe2c400-9a24-11eb-9fff-486808370f86.jpg" width="100" height="100"/>
   ### SAKSHAM APP
 
   
