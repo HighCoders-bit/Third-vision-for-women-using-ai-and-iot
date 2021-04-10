@@ -102,3 +102,24 @@ elif mycombo.get()=='see current year graph':
 <img src="https://user-images.githubusercontent.com/70643549/114270030-bec64900-9a27-11eb-87d5-cce10a003e41.png" width="200" height="200"/>
 <img src="https://user-images.githubusercontent.com/70643549/114270051-db628100-9a27-11eb-8e8d-ba71ab31759f.png" width="200" height="200"/>
 <img src="https://user-images.githubusercontent.com/70643549/114270092-27adc100-9a28-11eb-9078-7562445beeba.png"width="200" height="200"/>
+
+
+#### LIVE MAP
+
+inp= simpledialog.askstring(title="LIVE MAP",prompt="Enter name of district(CAPITAL):")
+           z=crimeprediction.maping(inp)
+           if z==0:
+               v=tk.StringVar()
+               e=tk.Entry(win,textvariable=v)
+               v.set("Please Check Spelling")
+               e.pack()
+           else:
+             new1=1
+             url1 = "file:///D:/NEW%20ML%20RESULTS/%20map.html"
+             def openweb1():
+                 webbrowser.open(url1,new=new1)
+             Btn1 =tk.Button(win, text = "This opens Google FROM USER INPUT",command=openweb1)
+             Btn1.pack()
+
+  <img src="https://user-images.githubusercontent.com/70643549/114270613-fe426480-9a2a-11eb-87a3-32830e4ade2c.png" width="200" height="200"/>
+
